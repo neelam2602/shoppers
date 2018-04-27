@@ -1,0 +1,19 @@
+.head img{margin-top: 10px}
+.head_ul{list-style: none;}
+.head_ul li{float: left;margin-right: 50px;margin-top:15px;margin-bottom: 10px;font-weight: bold;
+padding-bottom: 5px;padding-top: 10px}
+.head_ul li:hover , .head_ul_02 li:hover{border-bottom: 2px solid #c53c54;}
+.head_ul_02{list-style: none;}
+.head_ul_02 li{float: right;margin-top:15px;margin-bottom: 10px;font-weight: bold;
+padding-bottom: 5px;}
+.signIn{padding-top: 10px}
+.head_ul_02 button{margin-right: 30px;background:#c53c54;padding: 10px 10px;color: #fff;
+border-radius: 10px;border: 2px solid #fff;}
+.head_ul_02 button:hover{background: #fff;border-color:#c53c54;color:#c53c54 }
+.banner{background:#c53c54;padding-top: 100px;padding-bottom: 50px;padding-left: 200px;
+}
+.banner h1,.banner p{padding-bottom: 15px;color: #fff}
+.banner p{padding-bottom: 30px}
+.banner button{padding: 10px 15px;font-size: 18px;color: #fff;background:#c53c54;font-weight: bold;
+text-transform: uppercase;border-radius: 5px;border: 2px solid #fff;}
+/*link = http://psoftsolution.in/pepipostnew/email-pricing/*/

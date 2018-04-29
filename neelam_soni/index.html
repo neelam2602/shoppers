@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="general.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
 <body>
-	<div class="head">
+	<!-- head -->
+	<header class="head">
 		<div class="container">
 			<div class="col-md-1">
 				<img src="images/pepipost.png">
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-7">
 				<ul class="head_ul">
 					<li>Features</li>
 					<li>Pricing</li>
@@ -19,58 +21,515 @@
 					<li>Live Status</li>
 				</ul>
 			</div>
-			<div class="col-md-5">
+			<div class="col-md-4">
 				<ul class="head_ul_02">
 					<li class="signIn">Sign In</li>
 					<li><button>Sign Up Free</button></li>
 				</ul>
 			</div>
 		</div>
-	</div>
+	</header>
+
+	<!-- head -->
+
+	<!-- banner -->
 	<div class="banner">
-		<div class="container text-left">
-			<h1>World's only ESP that gives Cashback on emails opened</h1>
-			<p>That’s our reward to you for sending relevant emails and keeping the email ecosystem clean.</p>
-			<button>start your free trial</button>
+		<div class="bann_txt">
+			<div class="container">
+				<h1>World's only ESP that gives Cashback on emails opened</h1>
+				<p>That’s our reward to you for sending relevant emails and keeping the email ecosystem clean.</p>
+				<button class="btn btn1">start your free trial</button>
+			</div>
 		</div>
 	</div>
-	<div class="first_div">
+	<!-- banner -->
+
+
+	<!-- monthly plans -->
+	<div class="monthly_plans">
 		<div class="container">
-			<h1>Monthly plans for every business</h1>
-			<p>We offer plans for businesses of every size and scale. Start with our free plan and gain access to all features and 24X7 support. No credit card required. Signup <br>now, upgrade anytime. Whichever plan you choose, all emails opened are free.
+			<h2>Monthly Plans for every business</h2>
+			<p class="first_para">We offer plans for businesses of every size and scale. Start with our free plan and gain access to <a href="#">all features</a>
+				 and 24X7 support. No credit card required. Signup now, upgrade anytime. Whichever plan you choose, all emails opened are free.
 			</p>
-			<div class="first_div_01">
-				<table>
-					<tr>
-						<th>No.of emails</th>
-						<th>price per month</th>
-						<th>Price per 1000 extra emails</th>
-					</tr>
-					<tr>
-						<td>100,000</td>
-						<td>$15</td>
-						<td>$0.60</td>
-					</tr>
-					<tr>
-						<td>500,000</td>
-						<td>$145</td>
-						<td>$0.55</td>
-					</tr>
-					<tr>
-						<td>1000,000</td>
-						<td>$245</td>
-						<td>$0.50</td>
-					</tr>
-					<tr>
-						<td>2000,000</td>
-						<td>$445</td>
-						<td>$0.60</td>
-					</tr>
+			<div class="row tables">
+				<div class="container box">
+					<div class="col-md-6">
+						<table cellpadding="20px" class="table table-responsive details_table">
+			  				<thead>
+				  				<tr>
+				  					<th rowspan="2">No. of emails</th>
+				  					<th rowspan="2">Price per month</th>
+				  					<th rowspan="2">Price /1000 extra emails</th>
+				  				</tr>
+			  				</thead>
+				  			<tbody class="table_01_tbody">
+				  				<tr>
+				  					<td><b>1000,000</b></td>
+				  					<td>$15</td>
+				  					<td>$0.60</td>
+				  				</tr>
+				  				<tr>
+				  					<td><b>500,000</b></td>
+				  					<td>$145</td>
+				  					<td>$0.55</td>
+				  				</tr>
+				  				<tr>
+				  					<td><b>1000,000</b></td>
+				  					<td>$245</td>
+				  					<td>$0.50</td>
+				  				</tr>
+				  				<tr>
+				  					<td><b>2000,000</b></td>
+				  					<td>$445</td>
+				  					<td>$0.45</td>
+				  				</tr>
+				  				<tr>
+				  					<td><b>5000,000</b></td>
+				  					<td>$945</td>
+				  					<td>$0.40</td>
+				  				</tr>
+				  			</tbody>
+						</table>
+						<div class="contact_us">
+							<p>Send more than 5000,000 emails/mo ? 
+								<a href="#">Contact us</a>
+								 to get a custom quote.
+							</p>
+						</div>
+						<div class="cashback col-md-12">
+							<div class="col-md-2">
+								<img src="images/wallet.png" class="img-responsive">
+							</div>
+							<div class="col-md-10">
+								<p>Cashback on emails opened will be credited to your account in next month's bill.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="calculator">
+							<div class="row calc text-center">
+								<div class="col-md-6">
+									<input type="text" class="text-center">
+									<br>
+									<small>Monthly email volume</small>
+								</div>
+								<div class="col-md-6">
+									<input type="text" class="text-center">
+									<br>
+									<small>Average email open rate (%)</small>
+								</div>
+								<div class="btn_calculate">
+									<button class="btn btn-warning"><b>Calculate</b></button>
+								</div>
+								<div class="calc_text">
+									<p class="text-center">What plan best fits your needs ?</p>
+									<p class="text-center">Tell us your monthly email volume and we'll find the best plan for you. Also check how much cashback you can earn for your email open rate.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- monthly plans -->
+
+
+	<!-- Pepipost Vs Rest - A quick comparison -->
+	<div class="table_02">
+		<div class="container">
+			<h2>Pepipost Vs Rest - A quick comparison</h2>
+			<div class="col-md-12">
+				<table class="table table-responsive">
+	  				<thead>
+		  				<tr>
+		  					<th></th>
+		  					<th>Pepipost</th>
+		  					<th>Sendgrid</th>
+		  					<th>Mailgun</th>
+		  					<th>Sparkpost</th>
+		  				</tr>
+	  				</thead>
+		  			<tbody class="table_02_tbody">
+		  				<tr>
+		  					<td><b>100k</b> emails/ mo</td>
+		  					<td>$15</td>
+		  					<td>$19.5</td>
+		  					<td>$79</td>
+		  					<td>$46.5</td>
+		  				</tr>
+		  				<tr>
+		  					<td><b>500k</b> emails/ mo</td>
+		  					<td>$145</td>
+		  					<td>$299.95</td>
+		  					<td>$325</td>
+		  					<td>$249</td>
+		  				</tr>
+		  				<tr>
+		  					<td><b>1 Mn</b> emails/ mo</td>
+		  					<td>$245</td>
+		  					<td>$534.95</td>
+		  					<td>$515</td>
+		  					<td>$474</td>
+		  				</tr>
+		  				<tr>
+		  					<td><b>2 Mn</b> emails/ mo</td>
+		  					<td>$445</td>
+		  					<td>$924.95</td>
+		  					<td>$915</td>
+		  					<td>$974</td>
+		  				</tr>
+		  				<tr>
+		  					<td><b>5 Mn</b> emails/ mo</td>
+		  					<td>$945</td>
+		  					<td>$2274.95</td>
+		  					<td>$1.574</td>
+		  					<td>$1549</td>
+		  				</tr>
+		  			</tbody>
 				</table>
 			</div>
-			<div class="first_div_02">text</div>
 		</div>
 	</div>
+	<!-- Pepipost Vs Rest - A quick comparison -->
 
+	<!-- text on black background -->
+	<div class="text_black">
+		<div class="actual_text text">
+			<div class="container">
+				<h1>Send 30,000 emails free every month</h1>
+				<p>
+					Choosing an ESP or switching to a new ESP is a big decision. We understand that. Start off with our full featured Free Plan and see how Pepipost makes email delivery a breeze. You can send 30,000 emails every month, with a daily limit of 1000 emails per day. Go on, 
+					<a href="#"><b>give it a try!</b></a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- text on black background -->
+
+	<!-- switch plans -->
+	<div class="switch_plan">
+		<div class="container">
+			<h2>Switch plans anytime</h2>
+			<p>
+				Our plans are so designed that you can upgrade or downgrade anytime, at just a click of a button. It’s that simple really. When you switch plans, your new upgraded plan will come into effect immediately while downgrade happens at your next renewal date.
+			</p>
+		</div>
+	</div>
+	<!-- switch plans -->
+
+	<!-- features -->
+		<div class="features">
+			<div class="container">
+				<h2>Features for all. At no extra cost.</h2>
+				<div class="col-md-4">
+					<img src="images/features_01.png" class="img-responsive">
+					<h4 class="text-center">High Inbox Delivery</h4>
+					<p class="text-center">
+						High reputation IPs and dedicated email delivery experts to closely monitor your inbox success
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/features_02.png" class="img-responsive">
+					<h4 class="text-center">Quick set up within minutes</h4>
+					<p class="text-center">
+						Easily Integrate via SMTP, APIs or readily available plugins and start sending emails
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/features_03.png" class="img-responsive">
+					<h4 class="text-center">24X7 Live Support</h4>
+					<p class="text-center">
+						Our developers are available on chat round the clock to help you with all your queries
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/features_04.png" class="img-responsive">
+					<h4 class="text-center">Actionable Live Reports</h4>
+					<p class="text-center">Track your email performance at the very moment you send emails with live feeds on email metrics
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/features_05.png" class="img-responsive">
+					<h4 class="text-center">Subuser Management</h4>
+					<p class="text-center">
+						Best for individuals & teams with simplified account management and email credit allocation
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/features_06.png" class="img-responsive">
+					<h4 class="text-center">Webhooks</h4>
+					<p class="text-center">
+						Get real-time HTTP Post call-backs automatically when email is delivered, opened 
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	<!-- features -->
+
+	<!-- cutomer feedback -->
+	<div class="cust_feedback">
+		<div class="gray_part">
+			<div class="container">
+			<h2>What our customers are saying</h2>
+			<div class="slideshow">
+				<div class="slider">
+					<div class="inner_slider">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <div class="cust_info">
+					      	<img src="images/cust_01.jpg" alt="...">
+					      	<div class="cust_name">
+					      		<h4>Iman Hejazi</h4>
+					      		<p>CEO, Shift Marketing Agency</p>
+					      	</div>
+					      </div>
+					      <div class="cust_text">
+					        <p>What I like best about Pepipost is High Deliverability, Great Support and Pricing Plan. 
+					        </p>
+					      </div>
+					    </div>
+					    <div class="item">
+					      <div class="cust_info">
+					      	<img src="images/cust_02.jpg" alt="...">
+					      	<div class="cust_name">
+					      		<h4>BamaStangGuy</h4>
+					      		<p>Xenforo Developer Community</p>
+					      	</div>
+					      </div>
+					      <div class="cust_text">
+					        <p>
+                        	We just ditched Send***d for Pepipost and saved almost 80 dollars a month. So far so good. I really enjoy the dashboard
+                         	</p>
+					      </div>
+					    </div>
+					    <div class="item">
+					      <div class="cust_info">
+					      	<img src="images/cust_03.jpg" alt="...">
+					      	<div class="cust_name">
+					      		<h4>Thomas Evans</h4>
+					      		<p>COO, EmailOctopus</p>
+					      	</div>
+					      </div>
+					      <div class="cust_text">
+					        <p>
+                        	When you partner with Pepipost, you worry less about deliverability. I like it a lot.
+                         	</p>
+					      </div>
+					    </div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-- cutomer feedback -->
+
+	<!-- plans & pricing -->
+	<div class="plans_pricing">
+		<div class="container">
+			<h2>Plans & Pricing explained</h2>
+			<p>Here’s what you need to know about Pepipost Plans & Pricing, 	based on the questions we get asked the most.
+			</p>
+			<div class="col-md-12">
+				<div class="col-md-6">
+					<div class="col-md-1">
+						<i class="fas fa-question-circle" style="color:#42c3ff; font-size: 26px"></i>
+					</div>
+					<div class="col-md-11">
+						<p><strong>Do you offer a free trial?</strong></p>
+						<p>All new accounts start off on our full-featured free plan with 30,000 emails per month. It’s free forever, till you wish to upgrade. We don’t even ask for credit card.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-1">
+						<i class="fas fa-question-circle" style="color:#42c3ff; font-size: 26px"></i>
+					</div>
+					<div class="col-md-11">
+						<p><strong>Can I buy dedicated IPs?</strong></p>
+						<p>Dedicated IPs are available at a cost of $20 per month. To add dedicated IPs to your account, contact us at support@pepipost.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-6">
+					<div class="col-md-1">
+						<i class="fas fa-question-circle" style="color:#42c3ff; font-size: 26px"></i>
+					</div>
+					<div class="col-md-11">
+						<p><strong>Why should I follow warm-up plan?</strong></p>
+						<p>Irrespective of the plan in which you are, it's important to scale your emails gradually to maintain your sender domain reputation and deliverability. At Pepipost, we look at sending emails for new prospects in a small chunk with a warm up process spread across 2 weeks. 
+							<a href="#">Know More</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-1">
+						<i class="fas fa-question-circle" style="color:#42c3ff; font-size: 26px"></i>
+					</div>
+					<div class="col-md-11">
+						<p><strong>How is cashback on all emails opened calculated?</strong></p>
+						<p>Here’s how it works. At the end of each billing cycle, we calculate the total emails opened for the month and discount the cashback amount in your invoice. The per email cashback rate depends on the plan you are in. For instance, if you are in the 500,000 monthly email plan, your per email cost is $0.0029. You earn cashback at the same rate ($0.0029 per email). Find out about cashback in the event plan upgrade or downgrade 
+						<a href="#">here</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-6">
+					<div class="col-md-1">
+						<i class="fas fa-question-circle" style="color:#42c3ff; font-size: 26px"></i>
+					</div>
+					<div class="col-md-11">
+						<p><strong>What happens if I go over my plan’s monthly email limit?</strong></p>
+						<p>Be rest assured, crossing the monthly email limit will not block you from sending emails. Extra emails on monthly plans are calculated at the end of your billing cycle and included in the invoice for the upcoming month. This will reflect as Overage in your invoice.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-1">
+						<i class="fas fa-question-circle" style="color:#42c3ff; font-size: 26px"></i>
+					</div>
+					<div class="col-md-11">
+						<p><strong>Do unused emails roll over into the next month?</strong></p>
+						<p>No. If you are under your allocated monthly email sending limit at the end of a billing period, the unused email credits do not roll over to the next billing period.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-6">
+					<div class="col-md-1">
+						<i class="fas fa-question-circle" style="color:#42c3ff; font-size: 26px"></i>
+					</div>
+					<div class="col-md-11">
+						<p><strong>What payment types do you accept?</strong></p>
+						<p>We accept payments via all major credit/ debit cards, Visa, MasterCard, American Express, Diners, and JCB. We do not accept PayPal.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-1">
+						<i class="fas fa-question-circle" style="color:#42c3ff; font-size: 26px"></i>
+					</div>
+					<div class="col-md-11">
+						<p><strong>Do you offer high-volume plans?</strong></p>
+						<p>Yes! Drop an email to sales@pepipost.com and tell us about your requirement and the pricing you're looking for.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<button class="btn_view_all">VIEW ALL</button>
+			</div>
+		</div>
+	</div>
+	<!-- plans & pricing -->
+
+	<!-- companies -->
+	<div class="companies">
+		<div class="container">
+			<h2>Trusted by companies of all sizes across the globe</h2>
+			<div class="companies_slider">
+				<div class="row">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators cin">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <div class="row">
+					      	<div class="col-md-3 text-center marg">
+					      		<img src="images/comp_01.png" class="img-responsive">
+					      	</div>
+					      	<div class="col-md-3 text-center marg">
+					      		<img src="images/comp_02.png" class="img-responsive">
+					      	</div>
+					      	<div class="col-md-3 text-center marg">
+					      		<img src="images/comp_03.png" class="img-responsive">
+					      	</div>
+					      </div>
+					    </div>
+					    <div class="item">
+					      <div class="row">
+					      	<div class="col-md-3 marg">
+					      		<img src="images/comp_04.png" class="img-responsive">
+					      	</div>
+					      	<div class="col-md-3 marg">
+					      		<img src="images/comp_05.png" class="img-responsive">
+					      	</div>
+					      	<div class="col-md-3 marg">
+					      		<img src="images/comp_06.png" class="img-responsive">
+					      	</div>
+					      </div>
+					    </div>
+					    <div class="item">
+					      <div class="row">
+					      	<div class="col-md-3 marg">
+					      		<img src="images/comp_07.png" class="img-responsive">
+					      	</div>
+					      	<div class="col-md-3 marg">
+					      		<img src="images/comp_08.png" class="img-responsive">
+					      	</div>
+					      	<div class="col-md-3 marg">
+					      		<img src="images/comp_09.png" class="img-responsive">
+					      	</div>
+					      </div>
+					    </div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- companies -->
+
+	<!-- footer -->
+	<div class="footer">
+			<div class="col-md-4">ttext</div>
+			<div class="col-md-8">uyuy</div>
+		
+	</div>
+	<!-- footer -->
+
+
+
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

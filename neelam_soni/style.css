@@ -51,7 +51,7 @@
 	.plans_pricing a,.plans_pricing a:hover,.first_para a,.first_para a:hover{color:#000;text-decoration: underline;}
 	.btn_view_all{margin:0 496px;border:2px solid #fff;background-color:#c90047;color:#fff;font-weight: 700;border-radius:5px;font-size:16px;padding:8px 18px}
 	.btn_view_all:hover{background:#fff;border:2px solid #c90047;color: #c90047 !important;display: block;padding:8px 18px}
-	.companies{padding:60px 0}
+	.companies{padding:40px 0}
 	.companies_slider{margin-top: 4%}
 	.companies img{height: 66px;width:82%}
 	.companies .marg{margin: 0% 4%}
@@ -64,28 +64,76 @@
 	.box tr td{font-size: 15px;padding:4% !important;text-align:center !important;}
 	.tables .details_table{width: 92.5% !important;margin-left:20px;}
 	.contact_us{margin-top:5%;margin-left:4%}
+	.contact_us p a{color: #222;text-decoration:underline;font-weight:700 !important;font-size:15px}
+	.contact_us p{margin-left:25px;margin-bottom: 25px}
+	.cashback{background-color:#f7f7f7;padding: 10px}
+	.cashback p{margin-bottom: 0}
+	.cashback img{height: 40px;width: 42px}
 	.banner{position:relative;height:50vh;margin-bottom: 30px;
 		background-color:#c90047;background-image: url("../images/banner.jpg");
-		margin-top: 60px}
+		margin-top: 64px}
 	.banner h1{font-size:36px;margin-top:20px;margin-bottom:15px;font-weight:700;color: #fff}
 	.bann_txt{padding-top: 60px}
 	.banner p{font-size:16px;font-weight: 400;color:#fff !important;margin-bottom: 30px}
-	.banner .btn1{background:#c90047;border:2px solid #fff;font-size:16px;
+	.banner .btn1,.banner .btn1:hover{background:#c90047;border:2px solid #fff;font-size:16px;
 		font-weight: 700;color:#fff;padding:10px 20px;text-align:center;
 		text-transform:uppercase;}
 	.head{position: fixed;top: 0;left: 0;z-index: 100;background: #fff;
-		width:100%;border:1px solid #e3e3e3;}
+		width:100%;border:1px solid #e3e3e3;padding-top:5px;padding-bottom:5px}
 	.head img{margin-top: 5px;display: inline-block;}
 	.head_ul{list-style: none;}
-	.head_ul li{float: left;margin-right: 50px;margin-top:15px;margin-bottom: 10px;font-weight: bold;
+	.head_ul li{/*float:left;*/margin-right: 50px;margin-top:15px;margin-bottom: 10px;font-weight: bold;cursor:pointer;
 	padding-bottom: 5px;padding-top: 10px}
 	.head_ul li:hover , .signIn:hover{border-bottom: 2px solid #c53c54;}
 	.head_ul_02{list-style: none;cursor: pointer;}
 	.head li{float: right;margin-top:5px;margin-bottom: 10px;font-weight: 600;
 	}
-	.signIn{padding-top: 10px}
-	.head_ul_02 button{margin-right: 30px;background:#c53c54;padding: 10px 10px;color: #fff;
-	border-radius: 10px;border: 2px solid #fff;}
-	.head_ul_02 button:hover{background: #fff;border-color:#c53c54;color:#c53c54 }
+	.signIn{padding-top: 10px;}
+	.head_ul_02 button{margin-right: 30px;background: #62b9ff !important;padding: 6px 8px;color: #fff;
+	border-radius: 10px;border: 2px solid #62b9ff;}
+	.head_ul_02 button:hover{background: #fff !important;border-color:#62b9ff;color:#62b9ff }
+	.carousel-control.left , .carousel-control.right{background:none !important}
+	.footer{border-top:1px solid #999;padding-top: 50px}
+	.footer .col-md-2 ul{list-style: none}
+	.footer .col-md-2 ul li a{color:#222;text-decoration:none;font-weight:600;font-size: 13px;text-transform: capitalize; }
+	.footer .col-md-2  ul li{padding-bottom: 10px}
+	.footer .col-md-2 ul li a:hover{color: #c90047}
+	.footer .col-md-3 h3{color:#222;font-weight:600;font-size: 14px;margin-bottom: 10px;margin-top:0}
+	.most_read_ul{list-style:none;padding-left:0}
+	.most_read_ul li a{text-decoration:none;font-size:14px;font-weight:400;color:#222;}
+	.most_read_ul li{padding-left: 13px;margin-bottom:10px;text-align:left;}
+	.most_read_ul li span{color:#222;font-weight:400;font-size:9px;font-style:italic;}
+	.footer .col-md-3 p{margin-top:0;text-align:left}
+	.footer .col-md-3 .input_email{height:50px;border-radius:5px;border:1px solid #222;border-top-right-radius:0;border-bottom-right-radius:0;padding-left: 10px;color: #fff !important}
+	.footer .col-md-3 button{height:50px;margin-left:-4px;border-radius:5px;border-top-left-radius:0;border-bottom-left-radius:0;
+		width:70px;;border:1px solid #222;}
+	/*.footer .col-md-3{border:1px solid;}*/
+	/*.lower_footer img{vertical-align: middle;}
+	.lower_footer{padding-top: 35px;overflow: auto;}
+	.lower_footer p{margin-top:10px;margin-bottom: 10px;font-size:14px;color: #101010 !important}
+	.lower_footer ul{list-style:none;margin-left:37%;padding-top: 20px}
+	.lower_footer ul li{float: left;border-radius:50%;margin:1px 10px;color: #fff;font-size: 10px;height:30px;width:30px;background:#222}
+	.lower_footer ul li a{text-align: center;display: block}
+	.lower_footer ul li a i{font-size: 15px;color: #fff;line-height: 15px;padding-top: 7px}*/
+	.lower_footer .col-md-12 img{margin-left:43%}
+	.made_in{height: 60px;background:#222;position: relative;bottom:0;left: 0;
+		color:#8b8b8b!important;font-size:14px;font-weight:400;padding:20px}
+	.fheart{color: #c90047;}
+	.lower_footer ul{list-style:none;margin-left:37%;padding-top: 20px}
+	.lower_footer ul li{float: left;border-radius:50%;margin:1px 10px;color: #fff;font-size: 10px;height:30px;width:30px;background:#222}
+	.lower_footer ul li:hover{background:#c90047}
+	.lower_footer ul li a{text-align: center;display: block}
+	.lower_footer ul li a i{font-size: 15px;color: #fff;line-height: 15px;padding-top: 7px}
+	.lower_footer p{margin-top:10px;margin-bottom: 10px;font-size:14px;color: #101010 !important}
+	.lower_footer{padding-top: 35px;padding-bottom: 30px}
+	.calculator input{border:none;border-bottom:2px solid #222;outline:none;
+		padding:0 10px;background-color:#f7f7f7;margin-top:25px;}
+	.calculator small{font-size:14px;}
+	.calculator button{width:30%;margin:auto;font-size:20px;color:#222;background-color:#ffc340;border-radius:5px;margin-top:20px}
+	.calc{background-color:#f7f7f7;padding:10px;height: 158px;}
+
+	.calculator_text{padding-top:11%;border:1px solid rgb(247,247,247);height: 314px;border-top:none;}
+	.calculator_text .first_p{font-weight:700;color:#222}
+	.calculator_text .second_p{margin: 1% 16% 0 16%;font-weight:500;color:#101010 !important}
 
 }

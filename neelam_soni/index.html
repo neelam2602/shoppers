@@ -4,6 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	
 </head>
 <body>
 	<!-- head -->
@@ -92,7 +93,7 @@
 				  			</tbody>
 						</table>
 						<div class="contact_us">
-							<p>Send more than 5000,000 emails/mo ? 
+							<p class="text-left">Send more than 5000,000 emails/mo ? 
 								<a href="#">Contact us</a>
 								 to get a custom quote.
 							</p>
@@ -108,7 +109,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="calculator">
-							<div class="row calc text-center">
+							<div class="calc text-center">
 								<div class="col-md-6">
 									<input type="text" class="text-center">
 									<br>
@@ -122,10 +123,10 @@
 								<div class="btn_calculate">
 									<button class="btn btn-warning"><b>Calculate</b></button>
 								</div>
-								<div class="calc_text">
-									<p class="text-center">What plan best fits your needs ?</p>
-									<p class="text-center">Tell us your monthly email volume and we'll find the best plan for you. Also check how much cashback you can earn for your email open rate.</p>
-								</div>
+							</div>
+							<div class="calculator_text">
+								<p class="text-center first_p">What plan best fits your needs ?</p>
+								<p class="text-center second_p">Tell us your monthly email volume and we'll find the best plan for you. Also check how much cashback you can earn for your email open rate.</p>
 							</div>
 						</div>
 					</div>
@@ -451,12 +452,12 @@
 			<h2>Trusted by companies of all sizes across the globe</h2>
 			<div class="companies_slider">
 				<div class="row">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
 					  <!-- Indicators -->
 					  <ol class="carousel-indicators cin">
-					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					    <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
 					  </ol>
 
 					  <!-- Wrapper for slides -->
@@ -503,11 +504,11 @@
 					  </div>
 
 					  <!-- Controls -->
-					  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					  <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
 					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					    <span class="sr-only">Previous</span>
 					  </a>
-					  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					  <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
 					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					    <span class="sr-only">Next</span>
 					  </a>
@@ -520,9 +521,79 @@
 
 	<!-- footer -->
 	<div class="footer">
-			<div class="col-md-4">ttext</div>
-			<div class="col-md-8">uyuy</div>
-		
+		<div class="col-md-2">
+			<ul>
+				<li><a href="#">Integration</a></li>
+				<li><a href="#">api docs</a></li>
+				<li><a href="#">live status</a></li>
+				<li><a href="#">email api</a></li>
+				<li><a href="#">email sending services</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>
+				<li><a href="#">about</a></li>
+				<li><a href="#">purpose</a></li>
+				<li><a href="#">customers</a></li>
+				<li><a href="#">brand story</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>
+				<li><a href="#">team</a></li>
+				<li><a href="#">careers</a></li>
+				<li><a href="#">solutions partners</a></li>
+				<li><a href="#">contact us</a></li>
+				<li><a href="#">legal & security</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h3>Most read blogs</h3>
+			<ul class="most_read_ul">
+				<li><a href="">SMTP Port 25, 465, 587 or 2525 - how to choose the right SMTP Port?</a>
+					<span>45,682 views</span>
+				</li>
+				<li><a href="">3 Things You Need to Know About Gmail’s Red Lock / Padlock alert</a><span>10,494 views</span>
+				</li>
+				<li><a href="">Sending emails through SMTP with PHPMailer and Pepipost</a><span>4,158 views</span></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h3>Subscribe to our blog</h3>
+			<p>Know insights and inside out of email technology and email delivery</p>
+			<input type="text" class="input_email" name="email_address" placeholder="Your email address">
+			<button style="background-color: #000">
+				<i class="fal fa-arrow-right" aria-hidden="true" style="color: #fff"></i>
+			</button>
+		</div>
+	</div>
+	<div class="lower_footer text-center">
+		<div class="container">
+			<div class="col-md-12">
+				<img src="images/footer_pepipost.png" class="img-responsive">
+				<p class="text-center">© 2015 - 2018 All Rights Reserved. Pepipost is a product of Netcore Solutions.</p>
+				<ul>
+						<li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+						</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="made_in">
+			<div class="container">
+				Made with
+				<i class="fa fa-heart fheart"></i>
+				 in Dublin © 2018
+                
+			</div>
 	</div>
 	<!-- footer -->
 

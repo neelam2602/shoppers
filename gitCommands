@@ -1,0 +1,15 @@
+1)# create new user -->
+	add new group => groupadd <group_name>
+	add new user => useradd <userName>
+	change password => password userName
+2) pwd /home/userName
+3) mkdir project_name.git
+	cd project_name.git
+	gti --bare init -->initializing empty git repo
+4) git clone <url>
+5) git log =>to view log details.
+ 	git show <sha1 id param>==>to view commit details
+ 	press 'q' to exit terminal
+6) pushing changes to remote repo from local repo :
+	git push origin master
+7) synchronize local repo with remote repo

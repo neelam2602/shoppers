@@ -1,0 +1,9 @@
+Error: listen EADDRINUSE :::5000
+
+lsof -i:5000
+(5000 is our localhost:5000)
+kill -9 16210
+(16210 everytime it will changes)
+	
+
+
